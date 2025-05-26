@@ -34,7 +34,7 @@ is a symbol of the programming language, which is able to operate on the values.
 
 #c = 10
 #d = 5
-#print(c-d)
+#print(c - d)
 
 
             ###(**) Exponentiation
@@ -93,11 +93,11 @@ is a symbol of the programming language, which is able to operate on the values.
 """
         A (//) (double slash) sign is an integer division operator. It differs from the standard (/) operator in two details:
 
-                    (i)its result lacks the fractional part 
+                    (i)    its result lacks the fractional part 
                                 - it's absent (for integers).
                                 - and it's always equal to zero (for floats). 
                         ***This means that the results are always rounded.
-                    (ii)it conforms to the integer vs. float rule.
+                    (ii)    it conforms to the integer vs. float rule.
 
             - integer by integer division gives an integer result. All other cases produce floats.
 
@@ -107,7 +107,7 @@ is a symbol of the programming language, which is able to operate on the values.
 #print(4 // 3)
 
 #print(-6 // 4) #output = -2
-#print(6. // -4) #output = -2
+#print(6. // -4) #output = -2.0
 """
         Note: 
             some of the values are negative. This will obviously affect the result. But how?
@@ -140,6 +140,11 @@ is a symbol of the programming language, which is able to operate on the values.
 #Remainder = Dividend - Q_remainder
 
 #print(Remainder)
+
+
+
+
+
 
 #This little program kind helps to explain Remainder(Module) a little bit for floats
 #Dividend = float(input("EnterfirstNumber:"))

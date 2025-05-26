@@ -10,6 +10,35 @@
                         has a bit of meaning than using area_joe to initiate a variable
                             That is good for self commmenting.
 """
+
+
+
+
+
+#Single comment are written as this 
+# -- this is a single comment
+
+#Multiline comment
+#this is 
+#a multline
+#comment
+
+#Since python ignorea strings which are not assigned to variable you can use triple quotes to assign multiline comment
+"""
+if 5 > 2:
+print("its true") #This is the wrong way to do it
+"""
+
+""" is good to write code with a proper indentation as wrong indentation can result into an error"""
+if 5 > 2:
+    print("its true")#this is the right way to do it
+
+
+
+
+
+
+
 # This program evaluates the hypotenuse c.
 # a and b are the lengths of the legs.
 #a = 3.0
@@ -56,4 +85,3 @@ y = 2
                     and when others are reading your code (they can help them understand 
                                                         what your programs do and how they do it more quickly).
 """
- 

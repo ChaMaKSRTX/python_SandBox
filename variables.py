@@ -39,6 +39,9 @@ bool = True     #boolean can True or False depending on the condition
 #print(decimal)
 #print(bool)
 
+
+
+
 #assingment
 test_var = 4 + 5
 #print(test_var)
@@ -57,6 +60,9 @@ New_var = 700   #manipulation
 New_var = New_var ** 2
 #print(New_var)
 
+
+
+
 #Using multiple variables
 num_years = 4
 days_per_year = 365
@@ -70,6 +76,11 @@ total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_
 #print(total_secs)
 
 #print(total_secs)
+
+
+
+
+
 
 #global variables 
 """
@@ -103,6 +114,9 @@ message()
 #print(f"Python is, {second_word}")
 
 
+
+
+
 #Solving simple mathematical problems
 """
         pythagorean theorem
@@ -115,6 +129,11 @@ message()
 #b = float(input("Enter value of b:"))
 #c = ((a ** 2) + (b ** 2)) ** 0.5
 #print("c =", c)
+
+
+
+
+
 
 #some calc
 john = 3
@@ -140,6 +159,10 @@ total_apples = john // mary // adam
 
 total_apples = john % mary % adam
 #print(total_apples)
+
+
+
+
 
 
 #Shortcut operators
@@ -183,6 +206,11 @@ sheep += 2
 #j -= (i + var + rem)
 
 #print(j)
+
+
+
+
+
 
 #LAB
 kilometers = 12.25
@@ -236,7 +264,7 @@ kilometers_to_miles = 20.45543345
 
 a = 6
 b = 3
-a /= 2 * b
+a /= 2 * b # a = a / 2 * b
 #print(a)
 """
 the answer is 1.0 atleast for what i know is because

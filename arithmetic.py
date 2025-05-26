@@ -130,12 +130,13 @@ is a symbol of the programming language, which is able to operate on the values.
 #print(14 % 4)
 
 #This little program kind helps to explain Remainder(Module) a little bit for integers
+
 #Dividend = int(input("EnterfirstNumber:"))
 #Advisor = int(input("EntersecondNumber:"))
 
-#Quotient = Dividend // Advisor
+#Quotient = Dividend // Advisor         #Quotent is the interger division/ floor division
 
-#Q_remainder = Quotient * Advisor
+#Q_remainder = Quotient * Advisor           #Q_remider is the result of multiplying the result of integer division/ floor division and the divisor
 
 #Remainder = Dividend - Q_remainder
 

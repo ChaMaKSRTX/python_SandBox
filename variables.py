@@ -267,6 +267,6 @@ b = 3
 a /= 2 * b # a = a / 2 * b
 #print(a)
 """
-the answer is 1.0 atleast for what i know is because
+the answer is 1.0, atleast for what i know is because
      of the fact that The result produced by the division operator is always a float
 """

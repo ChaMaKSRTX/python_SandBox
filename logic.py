@@ -10,27 +10,29 @@
                         For example:
                             counter > 0 and value == 100
 
+                        -   The "and" operator evaluates an expression to True if both Boolean values are True; otherwise, it evaluates to False.
                         The result provided by the and operator can be determined on the basis of the truth table.
-                        False + False = False
-                        False + True = False
-                        True + False = False
-                        True + True = True
+                        False and False = False
+                        False and True = False
+                        True and False = False
+                        True and True = True
 
                  02. or operator:
                         It's a binary operator with a lower priority than and (just like + compared to *).
                          This logical operator is called a disjunction.
-                         True + True = True
-                         True + False = True
-                         False + True = True
-                         False + False = False
+                         -  The "or" operator evaluates an expression to True if either of the two Boolean values is True. If both are False, it evaluates to False.
+                         True or True = True
+                         True or False = True
+                         False or True = True
+                         False or False = False
 
                 03. not operator:
                         It's a unary operator performing a logical negation.
                                  Its operation is simple: it turns truth into falsehood and falsehood into truth.
-                                        This operator is written as the word not, and its priority is very high:
+                                        This operator is written as the word "not", and its priority is very high:
                                           the same as the unary + and -. Its truth table is simple:
-                                          False = True
-                                          True = False
+                                          not False = True
+                                          not True = False
 
                 Logical expressions:
                 not (p and q) == (not p) or (not q)
@@ -144,7 +146,8 @@ x = 1
 y = 0
 
 z = ((x == y) and (x == y)) or not(x == y)
-print(not(z))
+#print(not(z))
+#print(z)
 
 x = 4
 y = 1

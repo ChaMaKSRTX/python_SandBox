@@ -296,7 +296,7 @@ Test your code using the data we've provided.
  
 
 
-#LAB 03
+"""#LAB 03
 # year = int(input("Enter a year: "))
 
 # if year < 1582:
@@ -317,34 +317,34 @@ else:
 	elif year % 400 != 0:
 		print("Common year")
 	else:
-		print("Leap year")
+		print("Leap year")"""
 	
 
 
-#LAB 04
+"""#LAB 04
 ##
 x = 5
 y = 10
 z = 8
  
 print(x > y)
-print(y > z)
+print(y > z)"""
  
- ##
+""" ##
 x, y, z = 5, 10, 8
  
 print(x > z)
-print((y - 5) == x)
+print((y - 5) == x)"""
  
 
-##
+"""##
 x, y, z = 5, 10, 8
 x, y, z = z, y, x
  
 print(x > z)
-print((y - 5) == x)
+print((y - 5) == x)"""
  
- ##
+""" ##
 x = 10
  
 if x == 10:
@@ -355,9 +355,9 @@ if x < 10:
     print(x < 10)
 else:
     print("else")
+"""
 
-
-##
+"""##
 x = "1"
  
 if x == 1:
@@ -372,9 +372,9 @@ elif x == "1":
 if int(x) == 1:
     print("five")
 else:
-    print("six")
+    print("six")"""
  
-
+"""
 ##
 x = 1
 y = 1.0
@@ -388,6 +388,22 @@ elif x == y:
     print("three")
 else:
     print("four")
- 
- 
- 
+"""
+
+
+
+
+
+# A simple access denial or grant using conditional statatement
+name = "saint"
+password = "Access"
+
+user_name = input("Enter Your Name:")
+user_password = input("Enter Your Password:")
+
+if name == user_name:
+     print(f"Welcome, {name}")
+     if password == user_password:
+          print(f"Access granted.")
+else:
+    print(f"Access Denied")

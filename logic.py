@@ -141,7 +141,44 @@
                                   - (<<) does a bitwise left shift, e.g., y << 3 = 128, which is 1000 0000 in binary.
 
 """
+#   Mixing Boolean and Comparison Operators
+#   Note that "and", "or", and "not" are called Boolean operators because they always operate on the bolean value True and False.
+#   Expression such as 4 < 5 are not boolean value as they are expression that evaluate down to Boolean values.
 
+# program mixing of Boolena and Comparison Operators
+a = 4
+b = 5
+c = 6
+d = 9
+#print((a < b) and (b < c))
+#print((a < b) and (d < c))
+
+
+
+
+
+a = 1 
+b = 2
+
+#print((a == b) and (b == b))
+
+
+
+# Program start
+a = 2
+b = 4
+c = 5
+
+print((a + a == b) and not (a + a == 5) and (a * a == a + a)) # True
+"""The Boolean operators have an order of operations just like the math operators do. After any math and
+comparison operators evaluate, Python evaluates the not operators first, then the and operators, and then the
+or operators.
+"""
+# end
+
+
+
+# Program start
 x = 1
 y = 0
 
@@ -149,6 +186,7 @@ z = ((x == y) and (x == y)) or not(x == y)
 #print(not(z))
 #print(z)
 
+#Bitwise operators
 x = 4
 y = 1
 
@@ -159,5 +197,5 @@ d = x ^ 5
 e = x >> 2
 f = x << 2
 
-print(a, b, c, d, e, f)
+#print(a, b, c, d, e, f)
 

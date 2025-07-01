@@ -128,3 +128,12 @@ print(Answer)"""
 print(c)"""
 
 
+## Conditional statement
+number_1 = int(input("Enter the First Number:"))
+number_2 = int(input("Enter the Second Number:"))
+
+if number_1 > number_2:
+    large_number = number_1
+else:
+    large_number = number_2
+print(f"The larger Number is: {large_number}")
